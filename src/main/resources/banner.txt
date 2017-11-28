@@ -1,0 +1,5 @@
+
+               ----------------- Enquadra Reservas -----------------
+
+${AnsiColor.BRIGHT_BLUE}Version: ${application.formatted-version}
+${AnsiColor.BRIGHT_BLUE}Spring Boot Version: ${spring-boot.formatted-version}

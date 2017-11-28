@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+</head>
+<body>
+<!-- header-section-starts -->
+<div class="header" th:fragment="headeradmin">
+    <div class="container">
+        <div class="pull-left logo">
+            <a class="active" th:href="@{/admin/}"><img th:src="@{/images/logo_chain_reservas.png}"/> <span class="pull-right" style="font-size: 18px; color: #fff; font-weight: bold;">Admin</span></a>
+        </div>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-5">
+                    <li><a class="active" th:href="@{/admin/home}"><span data-hover="Home">Home</span></a></li>
+                    <li>/</li>
+                    <li><a th:href="@{/admin/escolher-praca}"><span data-hover="Reservas">Reservas</span></a></li>
+                    <li>/</li>
+                    <li><a th:href="@{/admin/atleticas}"><span data-hover="Atléticas">Atléticas</span></a></li>
+                    <li>/</li>
+                    <li><a th:href="@{/login?logout}"><span data-hover="Sair">Sair</span></a></li>
+                </nav>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- header-section-ends -->
+</body>
+</html>
